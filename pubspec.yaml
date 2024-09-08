@@ -1,0 +1,60 @@
+name: eMarket
+description: eMarket Flutter App.
+
+publish_to: "none"
+
+version: 1.0.1+3
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_cupertino_localizations:
+
+  cupertino_icons: ^1.0.0
+  stacked:
+  get_it:
+  shared_preferences:
+  http:
+  url_launcher:
+  fluttertoast:
+  carousel_pro:
+  shape_of_view:
+  photo_view:
+  cached_network_image:
+  progress_indicators:
+  dots_indicator:
+  flutter_spinkit:
+  dotted_border:
+  animations:
+  persistent_bottom_nav_bar:
+  html:
+  flutter_html:
+  email_validator:
+  jalali_calendar:
+  material_design_icons_flutter:
+  firebase_core:
+  firebase_auth:
+  connectivity:
+  firebase_messaging:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - asset/images/
+
+  fonts:
+    - family: IRANSans
+      fonts:
+        - asset: asset/fonts/IRANSansMobile(FaNum).ttf
+        - asset: asset/fonts/IRANSansMobile(FaNum)_Bold.ttf
+          weight: 700
